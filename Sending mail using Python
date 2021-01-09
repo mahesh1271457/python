@@ -1,4 +1,5 @@
-# python
+# python - Sending mail using Python
+
 import smtplib
 
 s=smtplib.SMTP("smtp.gmail.com",587)
