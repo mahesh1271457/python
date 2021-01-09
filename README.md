@@ -1,1 +1,14 @@
 # python
+import smtplib
+
+s=smtplib.SMTP("smtp.gmail.com",587)
+
+s.starttls()
+
+s.login("maheshkumarpathi.1999@gmail.com","fna21fxgxf1rjxe)
+
+msg=input("Enter your message here ")
+
+s.sendmail("maheshkmaheshkumarpathi.1999@gmail.com","maheshkumarpathi.19999@gmail.com",msg)
+
+s.quit()
